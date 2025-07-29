@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number</title>
+
+    <!-- Comic Google Font -->
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Speech Bubbles -->
+    <section class="bubble-container">
+      <div class="left-bubble" id="girl-bubble">
+        <p class="bubble-text message" id="girl-text">Guess my number!</p>
+      </div>
+      <div class="right-bubble boy-bubble">
+        <input
+          type="number"
+          class="guess"
+          min="1"
+          max="20"
+          placeholder="1–20"
+        />
+      </div>
+    </section>
+
+    <!-- Avatars -->
+    <section class="avatar-container">
+      <div class="left-avatar">
+        <img class="girl-avatar" src="assets/girl.png" alt="Girl" />
+      </div>
+      <section class="controls">
+        <button class="check">Check</button>
+        <button class="again">Play Again</button>
+        <!-- <p>🎯 Number: <span class="number">?</span></p> -->
+        <p class="scr-text">Score: <span class="score">20</span></p>
+        <p class="scr-text">Highscore: <span class="highscore">0</span></p>
+      </section>
+      <div class="right-avatar">
+        <img class="boy-avatar" src="assets/boy.png" alt="Boy" />
+      </div>
+    </section>
+
+    <!-- Game Controls -->
+
+    <div class="stars" id="stars-container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
