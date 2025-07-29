@@ -13,7 +13,7 @@ Test your luck (or logic!) and try to guess the secret number between 1 and 20. 
 
 <br>
 
-<h2>👉 <a href="https://rashadul-islam-code.github.io/Guess_My_Number_Game/" target="_blank" rel="noopener noreferrer">Click here to play the game</a></h2>
+<h2>👉 <a href="https://rashadul-islam-code.github.io/Guess_My_Number_Game/" target="_blank">Click here to play the game</a></h2>
 
 
 <br>
