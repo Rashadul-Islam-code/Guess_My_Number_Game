@@ -7,7 +7,7 @@ const failSound = new Audio("assets/sounds/fail.mp3");
 const boyBubble = document.querySelector(".boy-bubble");
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
-let score = 20;
+let score = 7;
 let highScore = 0;
 
 const displayMessage = function (message) {
@@ -62,7 +62,7 @@ document.querySelector(".check").addEventListener("click", function () {
 
 document.querySelector(".again").addEventListener("click", function () {
   clickSound.play();
-  score = 20;
+  score = 7;
   secretNumber = Math.trunc(Math.random() * 20) + 1;
 
   displayMessage("Guess my number!");
